@@ -1,7 +1,7 @@
 @if "%_echo%" == "" echo off
 SET EXE_DATE=%1%
 
-SET IMAGE_NUMBER=2
+SET IMAGE_NUMBER=1
 
 :upzip_img
 echo %IMAGE_NUMBER%
