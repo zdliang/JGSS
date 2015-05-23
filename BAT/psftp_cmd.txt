@@ -1,0 +1,4 @@
+open yuanbao.cloudapp.net
+cd /home/stock
+put C:\Code\JGSS\Data\20150509\20150509_100_close_predict.csv
+bye
