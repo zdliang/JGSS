@@ -2,17 +2,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_alignParentTop="true">
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:hint="请输入股票代码"
-            />
-    </LinearLayout>
     <com.githang.viewpagerindicator.IconTabPageIndicator
         android:id="@+id/indicator"
         android:layout_alignParentBottom="true"
@@ -28,4 +17,15 @@
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_above="@id/view_pager">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入股票代码"
+            />
+    </LinearLayout>
 </RelativeLayout>
